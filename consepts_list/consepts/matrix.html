@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="../../js/head_filler.js"></script>
+		<title>矩阵</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<script src="../../js/header_filler.js"></script>
+			<script>
+				nav_fill_consepts()
+			</script>
+
+			<!-- content start -->
+			<div id="content">
+				<h1><script>document.write(document.title);</script></h1>
+				<h2 id="zeros">零矩阵</h2>
+				<p class="text">元素全为0的矩阵</p>
+				<p class="text">· 零矩阵是阶梯形矩阵</p>
+				<h2 id="square">方阵</h2>
+				<p class="text">矩阵的行数列数相等</p>
+				<h2 id="coefficient">系数矩阵</h2>
+				<div class="text">
+				<p>只写出线性方程组的系数，按原来的次序排成一张表</p>
+				<math>
+					<mrow>
+						<mo>(</mo>
+						<mtable>
+							<mtr>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>11</mi>
+									</msub>
+								</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>12</mi>
+									</msub>
+								</mtd>
+								<mtd>&ctdot;</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>1n</mi>
+									</msub>
+								</mtd>
+							</mtr>
+							<mtr>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>21</mi>
+									</msub>
+								</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>22</mi>
+									</msub>
+								</mtd>
+								<mtd>&ctdot;</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>2n</mi>
+									</msub>
+								</mtd>
+							</mtr>
+							<mtr>
+								<mtd>&vellip;</mtd>
+								<mtd>&vellip;</mtd>
+								<mtd>&dtdot;</mtd>
+								<mtd>&vellip;</mtd>
+							</mtr>
+							<mtr>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>n1</mi>
+									</msub>
+								</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>n2</mi>
+									</msub>
+								</mtd>
+								<mtd>&ctdot;</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>nn</mi>
+									</msub>
+								</mtd>
+							</mtr>
+						</mtable>
+						<mo>)</mo>
+					</mrow>
+				</math>
+				</div>
+				<h2 id="augmented">增广矩阵</h2>
+				<div class="text">
+				<p>只写出线性方程组的系数和常数项，按原来的次序排成一张表</p>
+				<math>
+					<mrow>
+						<mo>(</mo>
+						<mtable>
+							<mtr>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>11</mi>
+									</msub>
+								</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>12</mi>
+									</msub>
+								</mtd>
+								<mtd>&ctdot;</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>1n</mi>
+									</msub>
+								</mtd>
+								<mtd>
+									<msub>
+										<mi>b</mi>
+										<mi>1</mi>
+									</msub>
+								</mtd>
+							</mtr>
+							<mtr>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>21</mi>
+									</msub>
+								</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>22</mi>
+									</msub>
+								</mtd>
+								<mtd>&ctdot;</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>2n</mi>
+									</msub>
+								</mtd>
+								<mtd>
+									<msub>
+										<mi>b</mi>
+										<mi>2</mi>
+									</msub>
+								</mtd>
+							</mtr>
+							<mtr>
+								<mtd>&vellip;</mtd>
+								<mtd>&vellip;</mtd>
+								<mtd>&dtdot;</mtd>
+								<mtd>&vellip;</mtd>
+								<mtd>&vellip;</mtd>
+							</mtr>
+							<mtr>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>n1</mi>
+									</msub>
+								</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>n2</mi>
+									</msub>
+								</mtd>
+								<mtd>&ctdot;</mtd>
+								<mtd>
+									<msub>
+										<mi>a</mi>
+										<mi>nn</mi>
+									</msub>
+								</mtd>
+								<mtd>
+									<msub>
+										<mi>b</mi>
+										<mi>n</mi>
+									</msub>
+								</mtd>
+							</mtr>
+						</mtable>
+						<mo>)</mo>
+					</mrow>
+				</math>
+				</div>
+				<h2 id="indicator">矩阵的指标</h2>
+				<p class="text">矩阵元素在矩阵中的位置</p>
+				<h2 id="main">主元</h2>
+				<p class="text">矩阵非0行从左边数第一个不为0的元素</p>
+			</div>
+			<!-- content end -->
+
+			<script src="../../js/footer_filler.js"></script>
+		</div>
+	</body>
+</html>
